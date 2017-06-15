@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Start of Form Fields TextFields  -->
+
+    <string name="student_name_txt">Student\'s Name</string>
+    <string name="student_gender_txt">Gender</string>
+    <string name="male_txt">Male</string>
+    <string name="female_txt">Female</string>
+    <string name="student_dob_txt">Date of Birth</string>
+    <string name="student_branch_txt">Branch</string>
+    <string name="student_enrollment_txt">Enrollment No.</string>
+    <string name="student_email_id_txt">Student\'s e-mail id</string>
+    <string name="student_mobile_no_txt">Student\'s Mobile No.</string>
+
+    <string name="father_name_txt">Father\'s Name</string>
+    <string name="father_edu_txt">Father\'s Educational Qualification</string>
+    <string name="father_occupation_txt">Father\'s Occupation(with Location)</string>
+    <string name="father_email_id_txt">Father\'s e-mail id</string>
+    <string name="father_mobile_no_txt">Father\'s Mobile No.</string>
+
+    <string name="mother_name_txt">Mother\'s Name</string>
+    <string name="mother_edu_txt">Mother\'s Educational Qualifications</string>
+    <string name="mother_occupation_txt">Mother\'s Occupation(with Location)</string>
+    <string name="mother_mobile_no_txt">Mother\'s Mobile No.</string>
+
+    <string name="residential_landline_no_txt">Residential Landline No.</string>
+    <string name="student_permanent_address_txt">Permanent Address</string>
+    <string name="student_permanent_address_pin_txt">Permanent Address Pin Code</string>
+
+    <string name="want_attendance_txt">Do you want attendance &#38; result regularly?</string>
+    <string name="parent_whatapp_no_txt">Parent\'s WhatsApp No. for official comm.</string>
+    <string name="guardian_whatsapp_no_txt">Guardian\'s WhatsApp No. for official comm.</string>
+
+    <string name="student_name_as_per_ssc_txt">Student Name (As per SSC)</string>
+    <string name="student_ssc_result_txt">SSC Result (grade/marks out of 500)</string>
+    <string name="student_hsc_result_maths_txt">HSC Result Maths (out of 100)</string>
+    <string name="student_hsc_result_physics_txt">HSC Result Physics (out of 100)</string>
+    <string name="student_hsc_result_chem_txt">HSC Result Chemistry (out of 100)</string>
+    <string name="student_jee_marks_txt">JEE Main (marks out of 360)</string>
+    <string name="student_merit_marks_txt">Student Merit Marks (out of 100)</string>
+    <string name="student_merit_no_txt">Student Merit No.</string>
+    <string name="student_medium_of_study_txt">Medium of Study (Eng/Guj/Hindi/Other)</string>
+    <string name="student_board_in_school_txt">Board of Study (ICSE/CBSE/GSEB/Other)</string>
+    <string name="student_school_name_city_txt">School Name &#38; City</string>
+
+    <string name="know_manish_sir_peerzada_sir_txt">Do you know Dr. Manish Shah/Prof. Peerzada directly or indirectly?</string>
+
+    <string name="student_current_address_txt">Current Address</string>
+    <string name="student_current_address_pin_txt">Current Address Pin Code</string>
+
+    <string name="student_home_hostel_txt">Home/Hostel (Mention staying with whom)</string>
+    <string name="student_hostel_fees_per_month_txt">Hostel Fees per month</string>
+    <string name="distance_from_lj_txt">Approximate Distance from current address to LJIET</string>
+    <string name="time_to_reach_txt">Time to reach LJIET\n(Approximate time (in minutes) required to reach LJIET from current address)</string>
+    <string name="mode_of_transpotaion_txt">Mode of Transport</string>
+    <string name="student_religion_txt">Religion</string>
+    <string name="student_caste_txt">Caste</string>
+    <string name="reserve_category_txt">Reserve Category (GEN/SC/ST/OBC/SEBC/DC/EBC)</string>
+    <string name="physically_handicapped_txt">Is Physically Handicapped? (Yes/No)</string>
+    <string name="economically_backward_txt">Economically Backward? (Yes/No)</string>
+    <string name="student_blood_group_txt">Blood Group of Student</string>
+    <string name="student_medical_history_txt">Any Medical History of Student</string>
+    <string name="student_achievement_txt">Remarkable Student Achievement</string>
+
+    <string name="bro_sis_name_one_txt">Brother/Sister Name #01</string>
+    <string name="bro_sis_age_one_txt">Brother/Sister Age #01</string>
+    <string name="bro_sis_edu_one_txt">Brother/Sister Education #01</string>
+    <string name="bro_sis_contact_no_one_txt">Brother/Sister Contact No. #01</string>
+
+    <string name="bro_sis_name_two_txt">Brother/Sister Name #02</string>
+    <string name="bro_sis_age_two_txt">Brother/Sister Age #02</string>
+    <string name="bro_sis_edu_two_txt">Brother/Sister Education #02</string>
+    <string name="bro_sis_contact_no_two_txt">Brother/Sister Contact No. #02</string>
+
+    <string name="mention_family_member_txt">
+        Mention the name &#38; contact of your family member (if any) studied in any institute run by Lok-Jagruti Trust
+    </string>
+    <string name="reason_for_opting_engineering_txt">
+        Why did you opt for engineering?
+    </string>
+    <string name="reason_for_opting_lj_txt">
+        Why you have selected L.J.?
+    </string>
+    <string name="person_refered_lj_txt">Name of person who referred LJIET to you</string>
+    <string name="contact_of_referring_person_txt">Contact Number of Referring Person</string>
+    <string name="senior_name_txt">Name of Senior Student known from LJIET</string>
+    <string name="senior_enrollment_no_txt">Enrollment No. of Senior Student known from LJIET</string>
+    <string name="senior_mobile_no_txt">Mobile No. of Senior Student known from LJIET</string>
+    <string name="senior_present_sem_txt">Present Sem of Senior Student known from LJIET</string>
+    <string name="senior_branch_txt">Branch of Senior Student known from LJIET</string>
+
+    <string name="friend_name_txt">Name of your Friend at LJIET (from 1st sem only)</string>
+    <string name="friend_enrollment_no_txt">Enrollment No. of your Friend at LJIET (from 1st sem only)</string>
+    <string name="friend_mobile_no_txt">Mobile Number of your Friend at LJIET (from 1st sem only)</string>
+    <string name="friend_branch_txt">Branch of your Friend at LJIET (from 1st sem only)</string>
+
+    <string name="prefered_mode_of_comm_txt">
+        Preferred Mode of Communication From Teacher to Parent
+    </string>
+
+    <!--    End of Form Fields TextFields  -->
+
+</resources>

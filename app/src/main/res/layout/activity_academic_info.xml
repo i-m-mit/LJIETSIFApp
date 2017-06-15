@@ -1,0 +1,199 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mitapps.ljietsifapp.AcademicInfo"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/academic_info_title_txt"
+        style="@style/formTitleField"
+        android:fontFamily="serif"
+        tools:ignore="UnusedAttribute" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_name_as_per_ssc_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_name_as_per_ssc_edit"
+                style="@style/formInputField"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_ssc_result_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_ssc_result_edit"
+                style="@style/formInputField"
+                android:inputType="number"
+                android:hint="@string/marks_hint_two_txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_hsc_result_maths_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_hsc_result_maths_edit"
+                style="@style/formInputField"
+                android:inputType="number"
+                android:hint="@string/marks_hint_txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_hsc_result_chem_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_hsc_result_chem_edit"
+                style="@style/formInputField"
+                android:inputType="number"
+                android:hint="@string/marks_hint_txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_hsc_result_physics_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_hsc_result_physics_edit"
+                style="@style/formInputField"
+                android:inputType="number"
+                android:hint="@string/marks_hint_txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_jee_marks_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_jee_marks_edit"
+                style="@style/formInputField"
+                android:inputType="number"
+                android:hint="@string/marks_hint_three_txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_merit_marks_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_merit_marks_edit"
+                style="@style/formInputField"
+                android:inputType="number"
+                android:hint="@string/marks_hint_txt"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_merit_no_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_merit_no_edit"
+                style="@style/formInputField"
+                android:inputType="number"
+                android:hint="@string/merit_no_hint_txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_medium_of_study_txt"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medium_of_study_spinner"
+                android:entries="@array/medium_of_study_values"
+                style="@style/formInputField"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_board_in_school_txt"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_board_in_school_spinner"
+                android:entries="@array/board_in_school_values"
+                style="@style/formInputField"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_school_name_city_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_school_name_city_edit"
+                style="@style/formInputField"
+                android:hint="@string/school_hint_txt"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/academic_prev_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/prev_btn"
+                    android:textColor="#fff"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1.0"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/academic_next_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/next_btn"
+                    android:textColor="#fff"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1.0"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">LJIET SIF App</string>
+    <string name="welcome_text">Welcome to LJIET</string>
+
+    <!--    Welcome Slide start -->
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!--    Welcom Slide finish -->
+
+    <string name="click_here">Click button below to fill the form</string>
+    <string name="next_btn">Next &#62;</string>
+    <string name="prev_btn">&#60; Prev</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_personal_info_fill">PersonalInfoFillActivity</string>
+    <string name="title_activity_family_info_fill">FamilyInfoFillActivity</string>
+    <string name="title_activity_residential_info_fill">ResidentialInfoFillActivity</string>
+    <string name="title_activity_capture_image">CaptureImageActivity</string>
+    <string name="title_activity_sif_main_file">SIFMainFileActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="export_button">Export</string>
+
+    <!--    Start of Hint Text  -->
+
+    <string name="student_first_name_hint_txt">First Name</string>
+    <string name="student_last_name_hint_txt">Last Name</string>
+    <string name="student_surname_hint_txt">Surname</string>
+
+    <string name="date_format_hint_txt">(dd-mon-yyyy, 09-Sept-1998)</string>
+    <string name="student_branch_hint_txt">Eg. Computer Engineering</string>
+
+    <string name="email_hint_txt">xyz@gmail.com</string>
+    <string name="mobile_format_hint_txt">Eg. +91 12345678910</string>
+    <string name="landline_format_hint_txt">Eg. 079 12345678</string>
+    <string name="pin_code_format_hint_txt">Eg. 123456</string>
+
+    <string name="blood_group_hint_txt">Eg. B+ve</string>
+
+    <string name="hostel_home_hint_txt">Eg. Home with parents/uncle / Hostel</string>
+    <string name="fees_per_hint_txt">Eg. 2000/month</string>
+    <string name="distance_hint_txt">In km (eg. 10)</string>
+    <string name="time_hint_txt">In minutes (eg. 20minutes)</string>
+
+    <string name="marks_hint_txt">Eg. 92</string>
+    <string name="marks_hint_two_txt">Eg. 430</string>
+    <string name="marks_hint_three_txt">Eg. 118</string>
+    <string name="merit_no_hint_txt">3657</string>
+    <string name="school_hint_txt">Eg. School of Achievers, Gandhinagar</string>
+
+    <string name="if_yes_then_reason_hint_txt">If yes, then how?</string>
+
+    <!--    End of Hint Text    -->
+
+    <!--    Start of Form Parts Title   -->
+
+    <string name="personal_info_title_txt">Personal Info</string>
+    <string name="family_info_title_txt">Family Info</string>
+    <string name="residential_info_title_txt">Residential Info</string>
+    <string name="academic_info_title_txt">Academic Info</string>
+    <string name="extra_info_title_txt">Extra Info</string>
+
+    <!--    End of Form Parts Title   -->
+
+    <!--    Start of Radio Button Options   -->
+    <string name="yes_txt">Yes</string>
+    <string name="no_txt">No</string>
+
+    <string name="public_txt">Public</string>
+    <string name="personal_txt">Personal</string>
+
+    <string name="whatsapp_msg_txt">WhatsApp Message</string>
+    <string name="phone_call_txt">Phone Call</string>
+
+    <!--    End of Radio Button Options     -->
+
+    <!--    Start of Spinner Options    -->
+
+    <string-array name="medium_of_study_values">
+        <item>English</item>
+        <item>Gujarati</item>
+        <item>Hindi</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="board_in_school_values">
+        <item>ICSE</item>
+        <item>CBSE</item>
+        <item>GSEB</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="reserve_category_values">
+        <item>GEN</item>
+        <item>SC</item>
+        <item>ST</item>
+        <item>OBC</item>
+        <item>SEBC</item>
+        <item>DS</item>
+        <item>EBC</item>
+    </string-array>
+
+    <string-array name="reason_for_opting_engineering_values">
+        <item>Parent\'s Choice</item>
+        <item>Friend\'s Choice</item>
+        <item>Personal Choice</item>
+        <item>No Reason</item>
+    </string-array>
+
+    <string-array name="reason_for_opting_lj_values">
+        <item>Good coaching</item>
+        <item>Good placement</item>
+        <item>Location</item>
+        <item>Strong parent-institute Interaction</item>
+        <item>Choice filling based on Last Year Merit List, but have no idea of LJ.</item>
+        <item>COE-Techfest Activities</item>
+        <item>Extra Curricular Activities</item>
+    </string-array>
+    <string name="title_activity_academic_info_fill">AcademicInfoFillActivity</string>
+    <string name="title_activity_main_form">MainFormActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sifmain">SIFMainActivity</string>
+
+    <!--    End of Spinner Options  -->
+</resources>

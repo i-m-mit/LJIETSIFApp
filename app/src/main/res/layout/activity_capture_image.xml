@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mitapps.ljietsifapp.CaptureImageActivity"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student's Picture"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/student_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:contentDescription="This is photo of student."
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/student_capture_button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/capture"
+            android:layout_gravity="center"
+            android:onClick="captureImage"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Father's Picture"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/father_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:contentDescription="This is photo of father."
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/father_capture_button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/capture"
+            android:layout_gravity="center"
+            android:onClick="captureImage"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Mother's Picture"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/mother_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:contentDescription="This is photo of mother."
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/mother_capture_button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/capture"
+            android:layout_gravity="center"
+            android:onClick="captureImage"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/export_button"
+        android:text="@string/export_button"/>
+</LinearLayout>

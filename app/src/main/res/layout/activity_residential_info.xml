@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mitapps.ljietsifapp.ResidentialInfo"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/residential_info_title_txt"
+        style="@style/formTitleField"
+        android:fontFamily="serif"
+        tools:ignore="UnusedAttribute" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_current_address_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_current_address_edit"
+                style="@style/formInputField"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:maxLines="6"
+                android:gravity="top|left"
+                android:scrollbars="vertical"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_current_address_pin_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_current_address_pin_edit"
+                style="@style/formInputField"
+                android:inputType="number"
+                android:hint="@string/pin_code_format_hint_txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_home_hostel_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_home_hostel_edit"
+                style="@style/formInputField"
+                android:hint="@string/hostel_home_hint_txt"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/student_hostel_fees_per_month_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_home_hostel_fees_per_month_edit"
+                style="@style/formInputField"
+                android:inputType="number"
+                android:hint="@string/fees_per_hint_txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/distance_from_lj_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/distance_from_lj_edit"
+                style="@style/formInputField"
+                android:inputType="number"
+                android:hint="@string/distance_hint_txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/time_to_reach_txt"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_to_reach_edit"
+                style="@style/formInputField"
+                android:inputType="number"
+                android:hint="@string/time_hint_txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/formTextField"
+                android:text="@string/mode_of_transpotaion_txt"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                style="@style/formTextField"
+                android:id="@+id/mode_of_transportaion_radio_grp">
+
+                <RadioButton
+                    android:id="@+id/radio_public"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/public_txt"
+                    style="@style/formInputField"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio_personal"
+                    android:text="@string/personal_txt"
+                    style="@style/formInputField"/>
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/prev_btn"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:id="@+id/residential_prev_btn"
+                    android:layout_weight="1.0"
+                    android:layout_margin="10dp"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/next_btn"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:id="@+id/residential_next_btn"
+                    android:layout_weight="1.0"
+                    android:layout_margin="10dp"
+                    tools:ignore="ButtonStyle" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
